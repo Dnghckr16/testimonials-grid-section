@@ -20,14 +20,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+   height: 100vh;
     font-family: "Barlow Semi Condensed",sans-serif;
 }
 p{
     font-size: 13px;
+    line-height:1.6;
+    opacity:0.8;
 }
 main{
-    width:1100px;
+    width:1200px;
     max-width: 100%;
     display: grid;
     justify-content: flex-end;
@@ -37,21 +39,21 @@ main{
     grid-template-areas: 
     "content1 content1 content2 content5"
     "content3 content4 content4 content5";
-    grid-gap:20px;  
+    grid-gap:1.8rem;  
    
   
 }
 .container{
     border:none;
     border-radius:10px;
-    padding: 1rem 1.8rem;
+    padding: 1.5rem 2.3rem 1rem;
   
 }
 .container-1{
     grid-area: content1;
     background-color: var(--Moderate-violet);
     background-image: url(./images/bg-pattern-quotation.svg) ;
-    background-position:  335px 0;
+    background-position:  340px 0;
     background-repeat: no-repeat;
     background-size: 100px 115px;
     z-index: 1;
@@ -82,6 +84,13 @@ main{
 
 .icon-name{
     display: flex;
+}
+.icon-border img{
+    border:2px solid var(--Moderate-violet);
+}
+.icon-border1 img{
+    border:2px solid rgba(155, 100, 243, 0.801);
+
 }
 img{
     border-radius: 50%;
