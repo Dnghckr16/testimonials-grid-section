@@ -39,14 +39,14 @@ main{
     grid-template-areas: 
     "content1 content1 content2 content5"
     "content3 content4 content4 content5";
-    grid-gap:1.8rem;  
+    grid-gap:2.5rem;  
    
   
 }
 .container{
     border:none;
     border-radius:10px;
-    padding: 1.5rem 2.3rem 1rem;
+    padding: 2rem 2.3rem 1rem;
   
 }
 .container-1{
